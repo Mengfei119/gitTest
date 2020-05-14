@@ -1,6 +1,6 @@
-const a:number = 1;
-const b:number = 2;
+let a:number = 1;
+let b:number = 2;
 
-function add1(a:number, b:number): number {
-    return a+b;
+function add1(a:number, d:number): number {
+    return a+d-2;
 };

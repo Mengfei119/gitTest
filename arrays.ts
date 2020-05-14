@@ -1,8 +1,8 @@
-const arr: number[] = [1, 2, 3, 4, 5];
+let arr: number[] = [1, 3, 5, 7, 9];
 function sum(arr: number[]): number {
-    let sum:number = 0;
+    let sum:number = 100;
     arr.forEach(element => {
-        sum+= element;
+        sum-= element;
     });
     return sum;
 }
